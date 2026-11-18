@@ -41,6 +41,7 @@ const Model kModels[] = {
     { 0x4618, 0x1418, L"Rapoo VT9 Max" },
     { 0x4415, 0x1215, L"Rapoo VT3 Pro" },
     { 0x4433, 0x1233, L"Rapoo VT1 Pro Max" },
+    { 0x418A, 0x185A , L"Rapoo VT9 Pro" }, // 追加
 };
 
 const Model* FindModel(USHORT pid) {
