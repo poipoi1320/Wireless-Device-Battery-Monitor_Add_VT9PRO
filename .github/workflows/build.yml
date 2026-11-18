@@ -64,6 +64,7 @@ jobs:
         with:
           name: WirelessBattery
           path: dist
+
       - uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2
         with:
           files: dist/*
@@ -77,6 +78,7 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           fetch-depth: 0
+
       - name: Announce on Discord
         continue-on-error: true
         env:
